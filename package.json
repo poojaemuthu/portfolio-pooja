@@ -3,6 +3,7 @@
     "main": "^1000.0.1"
   },
   "devDependencies": {
-    "sass": "^1.17.2"
+    "cssnano": "^4.1.10",
+    "sass": "^1.17.3"
   }
 }
