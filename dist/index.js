@@ -5,4 +5,4 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 },{"../sass/main.scss":"4SkQ"}],"Focm":[function(require,module,exports) {
 "use strict";require("../js/main"),main();
 },{"../js/main":"epB2"}]},{},["Focm"], null)
-//# sourceMappingURL=/index.js.map
+//# sourceMappingURL=index.js.map
