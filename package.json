@@ -5,7 +5,7 @@
   "main" : "index.js",
   "scripts" : {
     "start" : "parcel index.html",
-    "build" : "cross-env NODE_ENV=production parcel build js/index.js --public-url ./"
+    "build" : "parcel build js/index.js --public-url /portfolio-pooja/"
   },
   "dependencies": {
     "main": "^1000.0.1"
