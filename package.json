@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "main": "^1000.0.1"
+  },
+  "devDependencies": {
+    "sass": "^1.17.2"
+  }
+}

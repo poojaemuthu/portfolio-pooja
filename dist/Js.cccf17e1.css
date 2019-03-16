@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  line-height: 1;
+  text-decoration: none;
+}
+
+nav a {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 16px;
+  margin-right: 20px;
+  font-family: "Open Sans", sans-serif;
+  display: inline-block;
+}
+
+main {
+  height: 100vh;
+}
+
+.hero {
+  background-image: url();
+}
+.hero h1 {
+  font-size: 46px;
+  color: #000000;
+  margin-bottom: 15px;
+  font-family: "Ubuntu", sans-serif;
+  letter-spacing: 14;
+  font-weight: 500;
+}
+.hero h3 {
+  font-size: 22px;
+  color: rgba(0, 0, 0, 0.6);
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
+/*# sourceMappingURL=/Js.cccf17e1.css.map */
