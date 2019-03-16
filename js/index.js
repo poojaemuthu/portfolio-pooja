@@ -1,3 +1,3 @@
-import '/js/main.js';
+import '../js/main';
 
 main();
