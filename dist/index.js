@@ -7,4 +7,4 @@ APP_NAME=Test,APP_ENV=production,APP_KEY=1234;var P="APP_NAME = ".concat(void 0,
 },{"../sass/main.scss":"4SkQ"}],"Focm":[function(require,module,exports) {
 "use strict";require("../js/init"),require("../js/main"),main();
 },{"../js/init":"FyzG","../js/main":"epB2"}]},{},["Focm"], null)
-//# sourceMappingURL=index.js.map
+//# sourceMappingURL=/portfolio-pooja/index.js.map
