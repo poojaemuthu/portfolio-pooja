@@ -117,7 +117,17 @@ parcelRequire = (function (modules, cache, entry, globalName) {
   }
 
   return newRequire;
-})({"../../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
+})({"init.js":[function(require,module,exports) {
+if ("development" === 'production') {//running in production
+} else {//running in development
+  }
+
+APP_NAME = Test;
+APP_ENV = production;
+APP_KEY = 1234;
+var dotEnvContent = "APP_NAME = ".concat(undefined, "<br>APP_ENV = ").concat(undefined, "<br>APP_KEY = ").concat(undefined);
+document.getElementById('dotEnv').innerHTML = dotEnvContent;
+},{}],"../../../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
 var bundleURL = null;
 
 function getBundleURLCached() {
@@ -149,7 +159,7 @@ function getBaseURL(url) {
 
 exports.getBundleURL = getBundleURLCached;
 exports.getBaseURL = getBaseURL;
-},{}],"../../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/css-loader.js":[function(require,module,exports) {
+},{}],"../../../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/css-loader.js":[function(require,module,exports) {
 var bundle = require('./bundle-url');
 
 function updateLink(link) {
@@ -184,12 +194,12 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-},{"./bundle-url":"../../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"sass/main.scss":[function(require,module,exports) {
+},{"./bundle-url":"../../../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"../sass/main.scss":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"/Users/pooja/Documents/workspace/portfolio-pooja/images/pooja-photo.jpg":[["pooja-photo.c9618d93.jpg","images/pooja-photo.jpg"],"images/pooja-photo.jpg"],"/Users/pooja/Documents/workspace/portfolio-pooja/images/home-screen.png":[["home-screen.689cb087.png","images/home-screen.png"],"images/home-screen.png"],"/Users/pooja/Documents/workspace/portfolio-pooja/images/search.png":[["search.b89461e4.png","images/search.png"],"images/search.png"],"/Users/pooja/Documents/workspace/portfolio-pooja/images/hub.png":[["hub.11559482.png","images/hub.png"],"images/hub.png"],"/Users/pooja/Documents/workspace/portfolio-pooja/images/schedule.png":[["schedule.92798184.png","images/schedule.png"],"images/schedule.png"],"/Users/pooja/Documents/workspace/portfolio-pooja/images/profile.png":[["profile.8eeaf93c.png","images/profile.png"],"images/profile.png"],"/Users/pooja/Documents/workspace/portfolio-pooja/images/profile-menu.png":[["profile-menu.890cf6bc.png","images/profile-menu.png"],"images/profile-menu.png"],"/Users/pooja/Documents/workspace/portfolio-pooja/images/learning-corner.png":[["learning-corner.240755c8.png","images/learning-corner.png"],"images/learning-corner.png"],"/Users/pooja/Documents/workspace/portfolio-pooja/images/reports-1.png":[["reports-1.4923ff43.png","images/reports-1.png"],"images/reports-1.png"],"/Users/pooja/Documents/workspace/portfolio-pooja/images/reports-2.png":[["reports-2.178d8152.png","images/reports-2.png"],"images/reports-2.png"],"/Users/pooja/Documents/workspace/portfolio-pooja/images/progess-reports.png":[["progess-reports.3d35373c.png","images/progess-reports.png"],"images/progess-reports.png"],"/Users/pooja/Documents/workspace/portfolio-pooja/images/progess-reports-enabled.png":[["progess-reports-enabled.30474010.png","images/progess-reports-enabled.png"],"images/progess-reports-enabled.png"],"/Users/pooja/Documents/workspace/portfolio-pooja/images/evaluation-form.png":[["evaluation-form.aa363b2d.png","images/evaluation-form.png"],"images/evaluation-form.png"],"/Users/pooja/Documents/workspace/portfolio-pooja/images/evaluation-successful.png":[["evaluation-successful.6a8cf98e.png","images/evaluation-successful.png"],"images/evaluation-successful.png"],"/Users/pooja/Documents/workspace/portfolio-pooja/images/yoco-reports.png":[["yoco-reports.3ad6ca5c.png","images/yoco-reports.png"],"images/yoco-reports.png"],"/Users/pooja/Documents/workspace/portfolio-pooja/images/add-company1.jpg":[["add-company1.e8075af1.jpg","images/add-company1.jpg"],"images/add-company1.jpg"],"_css_loader":"../../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"js/main.js":[function(require,module,exports) {
+},{"./../images/pooja-photo.jpg":[["pooja-photo.c9618d93.jpg","../images/pooja-photo.jpg"],"../images/pooja-photo.jpg"],"./../images/home-screen.png":[["home-screen.689cb087.png","../images/home-screen.png"],"../images/home-screen.png"],"./../images/search.png":[["search.b89461e4.png","../images/search.png"],"../images/search.png"],"./../images/hub.png":[["hub.11559482.png","../images/hub.png"],"../images/hub.png"],"./../images/schedule.png":[["schedule.92798184.png","../images/schedule.png"],"../images/schedule.png"],"./../images/profile.png":[["profile.8eeaf93c.png","../images/profile.png"],"../images/profile.png"],"./../images/profile-menu.png":[["profile-menu.890cf6bc.png","../images/profile-menu.png"],"../images/profile-menu.png"],"./../images/learning-corner.png":[["learning-corner.240755c8.png","../images/learning-corner.png"],"../images/learning-corner.png"],"./../images/reports-1.png":[["reports-1.4923ff43.png","../images/reports-1.png"],"../images/reports-1.png"],"./../images/reports-2.png":[["reports-2.178d8152.png","../images/reports-2.png"],"../images/reports-2.png"],"./../images/progess-reports.png":[["progess-reports.3d35373c.png","../images/progess-reports.png"],"../images/progess-reports.png"],"./../images/progess-reports-enabled.png":[["progess-reports-enabled.30474010.png","../images/progess-reports-enabled.png"],"../images/progess-reports-enabled.png"],"./../images/evaluation-form.png":[["evaluation-form.aa363b2d.png","../images/evaluation-form.png"],"../images/evaluation-form.png"],"./../images/evaluation-successful.png":[["evaluation-successful.6a8cf98e.png","../images/evaluation-successful.png"],"../images/evaluation-successful.png"],"./../images/yoco-reports.png":[["yoco-reports.3ad6ca5c.png","../images/yoco-reports.png"],"../images/yoco-reports.png"],"./../images/add-company1.jpg":[["add-company1.e8075af1.jpg","../images/add-company1.jpg"],"../images/add-company1.jpg"],"_css_loader":"../../../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"main.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -206,13 +216,15 @@ var _default = function _default() {
 };
 
 exports.default = _default;
-},{"../sass/main.scss":"sass/main.scss"}],"js/index.js":[function(require,module,exports) {
+},{"../sass/main.scss":"../sass/main.scss"}],"index.js":[function(require,module,exports) {
 "use strict";
 
-require("/js/main.js");
+require("../js/init");
+
+require("../js/main");
 
 main();
-},{"/js/main.js":"js/main.js"}],"../../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"../js/init":"init.js","../js/main":"main.js"}],"../../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -240,7 +252,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49525" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "63120" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
@@ -415,5 +427,5 @@ function hmrAcceptRun(bundle, id) {
     return true;
   }
 }
-},{}]},{},["../../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js","js/index.js"], null)
+},{}]},{},["../../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js","index.js"], null)
 //# sourceMappingURL=/js.00a46daa.js.map
