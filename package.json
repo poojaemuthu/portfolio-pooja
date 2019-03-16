@@ -1,17 +1,19 @@
 {
-  "name" : "parcel",
-  "version" : "1.0.0",
-  "description" : "",
-  "main" : "index.js",
-  "scripts" : {
-    "start" : "parcel index.html",
-    "build" : "parcel build js/index.js --public-url /portfolio-pooja/"
+  "name": "parcel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build js/index.js --public-url /portfolio-pooja/",
+    "deploy": "gh-pages-deploy"
   },
   "dependencies": {
     "main": "^1000.0.1"
   },
   "devDependencies": {
     "cssnano": "^4.1.10",
+    "gh-pages-deploy": "^0.5.1",
     "sass": "^1.17.3"
   }
 }
